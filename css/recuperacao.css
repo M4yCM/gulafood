@@ -1,0 +1,41 @@
+#titulo {
+    font-size: 24px;
+}
+
+#sub {
+    font-size: 12px;
+}
+
+#caixa {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: #808080 solid 2px;
+    background-color: #e6e6e6;
+    text-align: left;
+}
+
+
+#codigo {
+    color: red;
+    font-size: 13px;
+    text-align: left;
+    
+}
+
+p {
+    text-align: left;
+    color: gray;
+}
+
+#caixote {
+    padding: 30px;
+}
+
+#seta {
+    text-align: right;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+}

@@ -1,0 +1,88 @@
+/* index.html */
+
+input {
+    background-color: #e6e6e6;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+    font-size: 13px;
+    padding: 10px 50px 10px;
+}
+
+.botao {
+    background-color: #2D9BF0;
+}
+
+#logo {
+    height: 150px;
+    text-align: center;
+}
+
+#principal {
+    border: 3px solid black;
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.esquecer {
+    color: red;
+    text-decoration-line: underline;
+}
+
+#criar {
+    background-color: aqua;
+    border-color: aqua;
+}
+
+
+/* fim */
+
+
+
+
+
+
+
+/* esquecer.html */
+
+#principal2 {
+    border: 3px solid black;
+    height: 100vh;
+    padding-top: 80px;
+    padding-left: 35px;
+}
+
+#cabecalho {
+    font-size: 28px;
+    text-align: left;
+    color: #808080;
+}
+
+#secundario {
+    font-size: 17px;
+    text-align: left;
+    color: #808080;
+}
+
+#caixa {
+    width: 80%;
+    float: left;
+    text-align: left;
+    padding: 14px 50px 14px 28px;
+}
+
+
+
+#text {
+    font-size: 12px;
+    text-align: left;
+    color: #808080;
+}
+
+#seta {
+    text-align: right;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+}
