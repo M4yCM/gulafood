@@ -7,13 +7,14 @@
 }
 
 #caixa {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     margin-right: 10px;
     border-radius: 8px;
     border: #808080 solid 2px;
     background-color: #e6e6e6;
-    text-align: left;
+    
+
 }
 
 
@@ -31,6 +32,7 @@ p {
 
 #caixote {
     padding: 30px;
+    text-align: left;
 }
 
 #seta {
