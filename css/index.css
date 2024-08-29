@@ -14,13 +14,37 @@
     float: right;
 }
 
-#barra {
-    float: left;
-    padding: 10px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-#barra img {
-    width: 55px;
-    margin-right: 10px;
-    margin-left: 10px;
+/* Container do menu */
+.menu-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+.menu-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Itens do menu */
+.menu-item {
+    display: inline-block;
+    padding: 10px 13px;
+    /* Espaçamento interno dos itens */
+    color: #808080;
+    /* Cor do texto */
+    text-decoration: none;
+    margin-right: 5px;
+    /* Espaço entre os itens */
+    border-radius: 4px;
+}
+
+img {
+    height: 45px;
 }
