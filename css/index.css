@@ -3,27 +3,27 @@
 }
 
 #icone {
-    width: 80px;
+    height: 35px;
     text-align: left;
     float: left;
 }
 
 #balao {
-    width: 40px;
+    height: 30px;
     text-align: right;
     float: right;
 }
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 
 /* Container do menu */
 .menu-container {
     overflow-x: auto;
     white-space: nowrap;
-    padding: 10px;
+    height: 100px;
     box-sizing: border-box;
     scrollbar-width: none;
 }
@@ -35,6 +35,8 @@ body {
 /* Itens do menu */
 .menu-item {
     display: inline-block;
+    flex-direction: column;
+    align-items: center;
     padding: 10px 13px;
     /* Espaçamento interno dos itens */
     color: #808080;
