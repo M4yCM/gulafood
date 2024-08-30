@@ -1,0 +1,61 @@
+#cabecalho {
+    padding: 35px;
+}
+
+#icone {
+    height: 35px;
+    text-align: left;
+    float: left;
+}
+
+#balao {
+    height: 30px;
+    text-align: right;
+    float: right;
+}
+
+#coxinhadefrango{
+    height: 234px;
+}
+
+#titulocoxinha{
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+#serveumapessoa{
+    padding-left: -30px;
+    color: #808080;
+    line-height: 0.5;
+    font-size: 15px;
+}
+
+#legendacoxinha{
+    padding-left: 40px;
+    color: #808080;
+    font-size: 10px;
+    font-family: Arial;
+    text-align: left;
+}
+
+#dochef{
+    height: 30px;
+    float: right;
+    padding-right: 30px;
+}
+
+#oitoreais{
+    padding-left: 40px;
+    color: #E30613;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+#turbineseusalgado{
+    padding-left: 40px;
+}
+
+#caixadeselecao{
+    height: 100px;
+    
+}

@@ -23,7 +23,7 @@ body {
 .menu-container {
     overflow-x: auto;
     white-space: nowrap;
-    height: 100px;
+    height: min-content;
     box-sizing: border-box;
     scrollbar-width: none;
     padding: 0px 10px;
@@ -44,7 +44,6 @@ body {
     /* Cor do texto */
     text-decoration: none;
     /* Espaço entre os itens */
-    border-radius: 4px;
 }
 
 #icons {
