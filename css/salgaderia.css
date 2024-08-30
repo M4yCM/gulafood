@@ -1,0 +1,39 @@
+
+#cabecalho {
+    padding: 35px;
+}
+
+#icone {
+    height: 35px;
+    text-align: left;
+    float: left;
+}
+
+#balao {
+    height: 30px;
+    text-align: right;
+    float: right;
+}
+
+#salgados{
+    height: 156px;
+}
+
+#do_chefe{
+    height: 55px;
+    margin-left: 30px;
+}
+
+#salgado_chef{
+    margin-left: 15px;
+    line-height: 50px;
+}
+
+#link{
+    margin-left: 107px;
+    margin-top: -15px;
+}
+
+#cor_link{
+    color: red;
+}
