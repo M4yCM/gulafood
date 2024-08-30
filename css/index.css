@@ -23,9 +23,10 @@ body {
 .menu-container {
     overflow-x: auto;
     white-space: nowrap;
-    height: 100px;
+    height: min-content;
     box-sizing: border-box;
     scrollbar-width: none;
+    padding: 0px 10px;
 }
 
 .menu-container::-webkit-scrollbar {
@@ -37,16 +38,58 @@ body {
     display: inline-block;
     flex-direction: column;
     align-items: center;
-    padding: 10px 13px;
+    padding: 5px 12px;
     /* Espaçamento interno dos itens */
     color: #808080;
     /* Cor do texto */
     text-decoration: none;
-    margin-right: 5px;
     /* Espaço entre os itens */
-    border-radius: 4px;
 }
 
-img {
+#icons {
     height: 45px;
+}
+
+
+
+
+.container-destaques{
+    border: solid 3px #e6e6e6;
+    margin: 0px 20px;
+}
+.header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+.header span {
+    color: red;
+}
+
+.header p {
+font-size: 20px;
+}
+
+.banner {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+.restaurants {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.restaurant {
+    text-align: center;
+}
+.restaurant img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+.restaurant p {
+    margin: 0;
 }
