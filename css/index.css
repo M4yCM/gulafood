@@ -51,23 +51,33 @@ body {
 }
 
 
+h5 {
+    margin-left: 40px;
 
+}
 
-.container-destaques{
+.container-destaques {
     border: solid 3px #e6e6e6;
     margin: 0px 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
+
 .header {
     font-size: 24px;
     margin-bottom: 10px;
-    
+
 }
+
 .header span {
     color: red;
+    font-size: 18px;
 }
 
 .header p {
-font-size: 20px;
+    font-size: 17px;
+    margin-left: 15px;
+
 }
 
 .banner {
@@ -75,21 +85,41 @@ font-size: 20px;
     max-width: 600px;
     margin: 0 auto 20px;
 }
+
 .restaurants {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .restaurant {
     text-align: center;
+
 }
+
 .restaurant img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: 2px solid #ccc;
     margin-bottom: 10px;
 }
+
 .restaurant p {
     margin: 0;
+    font-size: 13px;
+    color: #979797;
+}
+
+#carouselExample {
+    border: solid 3px #e6e6e6;
+    margin: 0px 20px;
+   
+
+
+}
+
+button {
+    size: 30px;
+    font-size: 10px;
 }
