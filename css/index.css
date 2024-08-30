@@ -23,7 +23,7 @@ body {
 .menu-container {
     overflow-x: auto;
     white-space: nowrap;
-    height: 100px;
+    height: min-content;
     box-sizing: border-box;
     scrollbar-width: none;
 }
@@ -37,16 +37,16 @@ body {
     display: inline-block;
     flex-direction: column;
     align-items: center;
-    padding: 10px 13px;
+    padding: 10px 12px;
     /* Espaçamento interno dos itens */
     color: #808080;
     /* Cor do texto */
     text-decoration: none;
-    margin-right: 5px;
+    margin-right: 3px;
     /* Espaço entre os itens */
-    border-radius: 4px;
 }
 
 img {
-    height: 45px;
+    height: 40px;
+    display: block;
 }
