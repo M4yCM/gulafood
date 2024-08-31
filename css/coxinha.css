@@ -1,3 +1,9 @@
+.container{
+    overflow-x: auto;
+    align-items: center;
+}
+
+
 #cabecalho {
     padding: 35px;
 }
@@ -55,7 +61,41 @@
     padding-left: 40px;
 }
 
-#caixadeselecao{
-    height: 100px;
+.selection-container {
+    width: 350px;
+    height: 95x;
+    margin-left: 35px;
+    border: 2px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+
+.texto1{
+    color: #808080;
+}
+
+.titulo_item{
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 2px;
+}
+
+#cremosidade{
+    padding-left: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.check:checked{
+    border: 2px solid #f00;
+}
+
+.algumcomentario{
+    padding-left: 20px;
+}
+
+input[type="checkbox"]{
+    border: 50px solid #f00;
+    accent-color: #f00;
     
 }
