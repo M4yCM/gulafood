@@ -95,8 +95,53 @@
     margin-left: 38px;
 }
 
-#imagem_coxinha{
-    margin-left: 75px;
+#div_coxinha{
+    border: 2px #808080 solid;
+    height: 200px;
+}
+
+.coxinha{
+    margin-left: 40px;
+    width: 160px;
+}
+
+#texto_coxinha{
+    padding-left: 3px;
+    color: #808080;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#div_coxinha_dois{
+    border: 2px #808080 solid;
+    height: 200px;
+}
+
+.coxinha_2{
+    margin-left: 210px;
+    width: 160px;
+    margin-top: -200px;
+}
+
+.letra_salgado{
+    font-weight: bold;
+    padding-left: 3px;
 }
 
 
+#texto_empada{
+    padding-left: 3px;
+    color: #808080;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#linha{
+    width: 330px;
+    height: 2px;
+    border: 0px;
+    border-top: 1px solid #808080;
+    background-color: #808080;
+    margin-left: 40px;
+    border-radius: 5px;
+}
