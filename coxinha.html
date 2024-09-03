@@ -15,38 +15,47 @@
     <div class="container" id="cabecalho">
         <img src="img/Logotipo.png" id="icone">
         <img src="img/text.png" id="balao">
-    </div>
-    <p></p>
-    <img src="img/coxinhadefrango.jpg" id="coxinhadefrango">
-    <br /><br />
-    <img src="img/do chef.png" id="dochef">
-    <p id="titulocoxinha"><strong>Coxinha com requeijão</strong><br>
-    <strong id="serveumapessoa">Serve 1 pessoa</strong></p>
-    <p id="legendacoxinha">Coxinhas com tempero especial e caseiro, com sabor diferencial de requeijão <br>
-        para ficar mais cremoso</p>
-    <p id="oitoreais"><strong>R$ 8,00</strong></p>
-    <p id="turbineseusalgado"><strong>Turbine seu salgado :)</strong></p>
-    
-    <div class="selection-container div_produto"> <!-- Primeira caixa de seleção -->
-        <p class="texto1 titulo_item"><strong>Requeijão Cremoso</strong></p>
-        <input type="checkbox" style="float: right; margin-right: 10px;" class="check">
-        <p class="texto1" id="cremosidade">Mais requeijão no seu salgado, o dobro de cremosidade em um único pedido</p>
-    </div>
-    <h1></h1>
-    <div class="selection-container div_produto"> <!-- Segunda caixa de seleção -->
-        <p class="texto1 titulo_item"><strong>Frango Temperado</strong></p>
-        <input type="checkbox" style="float: right; margin-right: 10px;" class="check">
-        <p class="texto1" id="cremosidade">Frango temperado ao delicioso sabor de alecrim e limao pepper</p>
-    </div>
-    <h1></h1>
-    <div class="selection-container div_produto"> <!-- Segunda caixa de seleção -->
-        <p class="texto1 titulo_item"><strong>Nenhum adicional acima</strong></p>
-        <input type="checkbox" style="float: right; margin-right: 10px;" class="check">
-        <p class="texto1" id="cremosidade">Não quero nenhuma opção acima</p>
-    </div>
-    <br>
-    <p id="algumcomentario"><strong>Algum comentário</strong></p>
-    
+        <p></p>
+        <img src="img/coxinhadefrango.jpg" id="coxinhadefrango">
+        <br /><br />
+        <img src="img/do chef.png" id="dochef">
+        <p id="titulocoxinha"><strong>Coxinha com requeijão</strong><br>
+        <strong id="serveumapessoa">Serve 1 pessoa</strong></p>
+        <p id="legendacoxinha">Coxinhas com tempero especial e caseiro, com sabor diferencial de requeijão <br>
+            para ficar mais cremoso</p>
+        <p id="oitoreais"><strong>R$ 8,00</strong></p>
+        <p id="turbineseusalgado"><strong>Turbine seu salgado :)</strong></p>
+        
+        <div class="selection-container div_produto"> <!-- Primeira caixa de seleção -->
+            <p class="texto1 titulo_item"><strong>Requeijão Cremoso</strong></p>
+            <input type="checkbox" style="float: right; margin-right: 10px;" class="check">
+            <p class="texto1" id="cremosidade">Mais requeijão no seu salgado, o dobro de cremosidade em um único pedido</p>
+        </div>
+        <h1></h1>
+        <div class="selection-container div_produto"> <!-- Segunda caixa de seleção -->
+            <p class="texto1 titulo_item"><strong>Frango Temperado</strong></p>
+            <input type="checkbox" style="float: right; margin-right: 10px;" class="check">
+            <p class="texto1" id="cremosidade">Frango temperado ao delicioso sabor de alecrim e limao pepper</p>
+        </div>
+        <h1></h1>
+        <div class="selection-container div_produto"> <!-- Segunda caixa de seleção -->
+            <p class="texto1 titulo_item"><strong>Nenhum adicional acima</strong></p>
+            <input type="checkbox" style="float: right; margin-right: 10px;" class="check">
+            <p class="texto1" id="cremosidade">Não quero nenhuma opção acima</p>
+        </div>
+        <br>
+        <p id="algumcomentario"><strong>Algum comentário</strong></p>
+        
+        <div class="selection-container div_comentario">
+            <p class="textocomentario">Ex.: Fazer com requeijão light</p>
+        </div>
+        <br>
+        <div id="div_comentario">
+            <img src="img/capacete.png" alt="" id="capacete">
+            <p class="aindatemendereco">Ainda não tem endereço</p>
+        </div>
+        <img src="img/seta-direita.png" class="setadireita">
+    </div> 
 </body>
 </html>
 
@@ -55,6 +64,5 @@
         $(this).click(function(){
             alert ($(this).parentNode.nodeName);
         })
-    })
-    
+    });
 </script>
