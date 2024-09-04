@@ -1,0 +1,36 @@
+.rodape {
+    width:442px;
+    height:80px;
+    background-color: red;
+    padding-left: 30px;
+    margin-left: -50px;
+    margin-right: 50px;
+}
+
+.rodape img {
+    border: none;
+    border-radius: 0%;
+    width: 50px;
+    height: 50px;
+    
+
+    
+}
+
+
+
+/* HTML */
+
+/* 
+
+
+     <div class="rodape">
+        <img src="img/rodape-1.png">
+        <img src="img/rodape-2.png">
+        <img src="img/rodape-3.png">
+        <img src="img/rodape-4.png">
+     </div>
+
+
+
+*/

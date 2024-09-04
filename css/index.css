@@ -141,10 +141,6 @@ button {
 
 
 
-.botoes-simples {}
-
-.botoes-elaborados {}
-
 
 .filtro-container {
     overflow-x: auto;
@@ -194,8 +190,81 @@ button {
     clear: both;
 }
 
-.rodape {
-    width: 40px;
-    height:100px;
-    background-color: red;
+
+
+
+.botao-flutuante {
+    display: flex;
+    align-items: center;
+    background-color: #f00; /* Cor de fundo vermelha */
+    color: #fff;
+    padding:0px 20px;
+    border-radius: 20px;
+    position: fixed; /* Posição fixa na tela */
+    top: 720px; /* Distância do topo */
+    right: 120px; /* Distância da direita */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 1000; /* Para ficar sobre outros elementos */
+    width: 275px;
+    height: max-content;
 }
+
+.botao-flutuante img {
+    width: 45px; /* Largura do ícone */
+    height: auto; /* Altura proporcional */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    border: none;
+    border-radius: none;
+    margin-bottom: 10px;
+    margin-left: -5px;
+}
+
+
+
+
+
+
+
+
+.rodape a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    
+} 
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:red; /* Cor de fundo vermelha */
+    padding: 10px 0;
+    margin-left: -21px;
+    z-index: 1000; /* Mantém o rodapé acima de outros elementos */
+    height:max-content;
+  }
+
+  .rodape-item {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .rodape-item img {
+    width: 40px;
+    height: 38px;
+    display: block;
+    border: none;
+    border-radius: 0%;
+   
+  }
+
+  
+
+
+
+
+
