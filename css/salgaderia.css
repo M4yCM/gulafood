@@ -48,8 +48,7 @@
 }
 
 #div_opcao{
-    border:3px solid gray;
-    opacity: 0.5;
+    border:3px solid #e6e6e6;
     width: fit-content;
     margin-left: 38px;
     padding: 8px;
@@ -67,9 +66,8 @@
 #opcao{
     height: 30px;
     width: 132px;
-    color: #808080;
+    color: gray;
     font-weight: bold;
-    opacity: 0.5;
     size: 50px;
     text-align: center;
 }
@@ -79,30 +77,39 @@
     width: 108px;
     position: relative;
     overflow: hidden;
-    color: #808080;
+    color: gray;
     font-weight: bold;
-    padding-top: 5px;
+    padding-top: 9px;
     padding-left: 3px;
     font-size: 11px;
-    border: 3px #808080 solid;
+    border: 3px #e6e6e6 solid;
     float: right;
     margin-top: -56px;
     margin-right: 56px;
-    opacity: 0.5;
 }
 
 #destaque{
     margin-left: 38px;
 }
 
+.rolagem{
+    overflow-x: auto;
+    white-space: nowrap;
+    height: min-content;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+
 #div_coxinha{
-    border: 2px #808080 solid;
+    border: 2px #e6e6e6 solid;
     height: 200px;
+    width: 194px;
+
 }
 
 .coxinha{
     margin-left: 40px;
-    width: 160px;
 }
 
 #texto_coxinha{
@@ -113,14 +120,15 @@
 }
 
 #div_coxinha_dois{
-    border: 2px #808080 solid;
+    border: 2px #e6e6e6 solid;
     height: 200px;
 }
 
 .coxinha_2{
-    margin-left: 210px;
-    width: 160px;
+    margin-left: 270px;
+    width: 194px;
     margin-top: -200px;
+    margin-right: 10px;
 }
 
 .letra_salgado{
@@ -144,4 +152,11 @@
     background-color: #808080;
     margin-left: 40px;
     border-radius: 5px;
+}
+
+#combao_img{
+    height: 75px;
+    width: 75px;
+    margin-bottom: -40px;
+    margin-left: 50px;
 }
