@@ -26,7 +26,7 @@
 
 #salgado_chef{
     margin-left: 15px;
-    line-height: 50px;
+    line-height: 5px;
 }
 
 #link{
@@ -36,4 +36,112 @@
 
 #cor_link{
     color: red;
+}
+
+#preco{
+    margin-left: 15px;
+    font-size: 12px;
+    float: right;
+    margin-top: -37px;
+    margin-right: 80px;
+    color: gray;
+}
+
+#div_opcao{
+    border:3px solid gray;
+    opacity: 0.5;
+    width: fit-content;
+    margin-left: 38px;
+    padding: 8px;
+}
+
+#div_opcao select{
+    border: none;
+}
+
+#div_opcao img{
+    width: 35px;
+    vertical-align: top;
+}
+
+#opcao{
+    height: 30px;
+    width: 132px;
+    color: #808080;
+    font-weight: bold;
+    opacity: 0.5;
+    size: 50px;
+    text-align: center;
+}
+
+.selection-container{
+    height: 57px;
+    width: 108px;
+    position: relative;
+    overflow: hidden;
+    color: #808080;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 3px;
+    font-size: 11px;
+    border: 3px #808080 solid;
+    float: right;
+    margin-top: -56px;
+    margin-right: 56px;
+    opacity: 0.5;
+}
+
+#destaque{
+    margin-left: 38px;
+}
+
+#div_coxinha{
+    border: 2px #808080 solid;
+    height: 200px;
+}
+
+.coxinha{
+    margin-left: 40px;
+    width: 160px;
+}
+
+#texto_coxinha{
+    padding-left: 3px;
+    color: #808080;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#div_coxinha_dois{
+    border: 2px #808080 solid;
+    height: 200px;
+}
+
+.coxinha_2{
+    margin-left: 210px;
+    width: 160px;
+    margin-top: -200px;
+}
+
+.letra_salgado{
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+
+#texto_empada{
+    padding-left: 3px;
+    color: #808080;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#linha{
+    width: 330px;
+    height: 2px;
+    border: 0px;
+    border-top: 1px solid #808080;
+    background-color: #808080;
+    margin-left: 40px;
+    border-radius: 5px;
 }
